@@ -1,0 +1,31 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.dragme {
+    position: relative;
+    width: 270px;
+    height: 203px;
+    cursor: move;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+  }
+  
+#draggable {
+    background-color: #ccc;
+    border: 1px solid #000;
+}
+
+.map {
+    position: fixed;
+    height: 90vh;
+    width: 100%;
+    background-color: red;
+    bottom: 0%;
+}
